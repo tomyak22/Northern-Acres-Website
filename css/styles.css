@@ -1,3 +1,12 @@
+/* Stylesheet for Northern Acres website
+Tom Fenyak 2019 */
+
+/* fonts used
+Overpass - sans-serif
+Catamaran - sans-serif
+PT Sans Caption */
+
+
 /* Navbar and top slides */
 #top-section{
   background-color: #004a2f;
@@ -5,13 +14,16 @@
 
 #navigation{
   background-color: white;
-  color: #fff0a5;
   padding: 1rem 0;
 }
 
 .nav-image{
   width: 350px;
   height: 120px;
+}
+
+.nav-link{
+  font-family: 'Overpass', sans-serif;
 }
 
 .navbar-brand{
@@ -33,6 +45,14 @@
   padding: 5rem 0 8rem;
 }
 
+.featured-slides h5{
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.featured-slides p{
+font-family: 'Overpass', sans-serif;
+}
+
 .featured-image{
    width: 55%;
    height: 500px;
@@ -40,4 +60,62 @@
 
 .slide-text{
   color:  #fff0a5;
+}
+
+/* Home page general information section */
+#home-main{
+  padding: 3rem 0;
+}
+.home-info{
+  text-align: center;
+}
+
+.home-title-pic{
+  width: 75%;
+}
+
+.home-info h2{
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #004a2f;
+  padding: 5rem;
+}
+
+.home-info h3{
+  font-family: 'Overpass', sans-serif;
+  padding: 2rem;
+}
+
+.home-info p{
+  font-family: 'Catamaran', sans-serif;
+}
+
+.home-text{
+  padding: 1rem;
+}
+
+/* Footer styles */
+#footer{
+  background-color: #004a2f;
+  color: #fff0a5;
+  text-align: center;
+  padding: 5% 12%;
+}
+
+.footer-link{
+  color: #fff0a5;
+  padding: 0 1rem;
+}
+
+.footer-link:hover{
+  color: white;
+}
+
+.footer-icon{
+  padding: 0.5rem 1rem;
+}
+
+.footer-icon:hover{
+  color: white;
 }
