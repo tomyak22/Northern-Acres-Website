@@ -176,3 +176,44 @@ font-family: 'Overpass', sans-serif;
 #terms p{
   font-family: 'Catamaran', sans-serif;
 }
+
+/* Featured Properties Page */
+#featured-properties{
+  background-color: #004a2f;
+  text-align: center;
+}
+
+#featured-properties h2 {
+  color: white;
+  font-family: 'PT Sans Caption', sans-serif;
+  padding: 3rem 0;
+  font-size: 3rem;
+}
+
+.individual-listing{
+  padding: 1rem 0;
+}
+
+.property-image{
+  height: 250px;
+  width: 250px;
+  outline: white solid;
+  margin-bottom: 1rem;
+}
+
+#featured-properties h4{
+  color: #fff0a5;
+  font-family: 'Overpass', sans-serif;
+  padding-bottom: .2rem;
+}
+
+#featured-properties h6{
+  color: white;
+  font-family: 'Overpass', sans-serif;
+}
+
+#featured-properties p{
+  color: white;
+  text-align: left;
+  font-family: 'Catamaran', sans-serif;
+}
